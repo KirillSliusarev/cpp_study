@@ -3,7 +3,6 @@ using namespace std; // namespace standart
 int main() // main func
 {
     setlocale(LC_ALL, ""); // setting up lacale
-    setlocale(LC_ALL, ""); // setting up lacale
     int a = 150;
     float b = 15.933;
     short int c = 250;
