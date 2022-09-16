@@ -9,7 +9,6 @@ int main() // main func
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
     cout << "c = " << c << endl;
-
     short int day = 18;
     string month = " august ";
     short int year = 2003;
