@@ -14,7 +14,7 @@ class weapon
         this ->weight = weight;
     }
 
-    weapon(){weapon("machinegun", 18, 32);}
+    weapon() : weapon("machinegun", 18, 32) {}
 };
 
 int main() 
@@ -22,6 +22,6 @@ int main()
     weapon pistol("pistol", 4, 2);
     weapon machinegun;
 
-    cout << pistol.name << pistol.dmg << pistol.weight << endl;
-    cout << machinegun.name << machinegun.dmg << machinegun.weight << endl;
+    cout << pistol.name << " " << pistol.dmg << " " << pistol.weight << endl;
+    cout << machinegun.name << " " << machinegun.dmg << " " << machinegun.weight << endl;
 }
